@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Teste Mobile</string>
+    <string name="primeira_parte_mens">ºC em </string>
+    <string name="segunda_parte_mens">com tempo %s</string>
+    <string name="error">Não disponível!</string>
+    <string name="sair_message">Pressione novamente para sair</string>
+</resources>
