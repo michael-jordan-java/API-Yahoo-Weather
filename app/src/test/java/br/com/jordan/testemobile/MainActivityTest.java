@@ -23,10 +23,10 @@ public class MainActivityTest extends ExampleUnitTest {
 
     @Test
     public void testTradutor(){
-        assertEquals("tornado",ConversorUtil.traduzir("tornado"));
-        assertEquals("tempestade tropical",ConversorUtil.traduzir("tropical storm"));
-        assertEquals("soprando neve",ConversorUtil.traduzir("blowing snow"));
-        assertEquals("poeira",ConversorUtil.traduzir("dust"));
+        assertEquals("tornado",ConversorUtil.traduzir("Tornado"));
+        assertEquals("tempestade tropical",ConversorUtil.traduzir("Tropical Storm"));
+        assertEquals("soprando neve",ConversorUtil.traduzir("Blowing Snow"));
+        assertEquals("poeira",ConversorUtil.traduzir("Dust"));
 
     }
 }

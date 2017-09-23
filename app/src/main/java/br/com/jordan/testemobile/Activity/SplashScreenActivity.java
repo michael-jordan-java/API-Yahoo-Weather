@@ -196,11 +196,6 @@ public class SplashScreenActivity extends AppCompatActivity implements LocationL
         @Override
         public void onError(Exception error) {
             Toast.makeText(SplashScreenActivity.this, error.getMessage(), Toast.LENGTH_LONG).show();
-            Log.e("tag", "Erro: " + error.getCause());
-            Log.e("tag", "Erro: " + error.getLocalizedMessage());
-            Log.e("tag", "Erro: " + error.getMessage());
-            Log.e("tag", "Erro: " + error.getStackTrace());
-            
             finish();
         }
     };

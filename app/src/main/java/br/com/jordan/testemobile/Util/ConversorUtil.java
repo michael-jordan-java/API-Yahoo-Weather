@@ -14,90 +14,90 @@ public class ConversorUtil {
     }
 
     public static String traduzir(String mensagem) {
-        switch (mensagem) {
-            case "Tornado":
+        switch (mensagem.toLowerCase()) {
+            case "tornado":
                 return "tornado";
-            case "Tropical storm":
+            case "tropical storm":
                 return "tempestade tropical";
-            case "Hurricane":
+            case "hurricane":
                 return "furacão";
-            case "Severe thunderstorms":
+            case "severe thunderstorms":
                 return "tempestades severas";
-            case "Thunderstorms":
+            case "thunderstorms":
                 return "trovoadas";
-            case "Mixed rain and snow":
+            case "mixed rain and snow":
                 return "chuva mista e neve";
-            case "Mixed rain and sleet":
+            case "mixed rain and sleet":
                 return "chuva mista e aguaceiro";
-            case "Freezing drizzle":
+            case "freezing drizzle":
                 return "chuvisco gelado";
-            case "Showers":
+            case "showers":
                 return "chuveiros";
-            case "Snow flurries":
+            case "snow flurries":
                 return "Flocos de neve";
-            case "Ligth snow showers":
+            case "ligth snow showers":
                 return "leve neve";
-            case "Blowing snow":
+            case "blowing snow":
                 return "soprando neve";
-            case "Snow":
+            case "snow":
                 return "neve";
-            case "Hail":
+            case "hail":
                 return "saudar";
-            case "Sleet":
+            case "sleet":
                 return "granizo";
-            case "Dust":
+            case "dust":
                 return "poeira";
-            case "Foggy":
+            case "foggy":
                 return "nebuloso";
-            case "Haze":
+            case "haze":
                 return "neblina";
-            case "Smoky":
+            case "smoky":
                 return "esfumaçado";
-            case "Blustery":
+            case "blustery":
                 return "blustery";
-            case "Windy":
+            case "windy":
                 return "ventoso";
-            case "Cold":
+            case "cold":
                 return "frio";
-            case "Cloudy":
+            case "cloudy":
                 return "nublado";
-            case "Mostly cloudy (night)":
+            case "mostly cloudy (night)":
                 return "geralmente nublado (noite)";
-            case "Mostly cloudy (day)":
+            case "mostly cloudy (day)":
                 return "mais nublado (dia)";
-            case "Partly cloudy (night)":
+            case "partly cloudy (night)":
                 return "parcialmente nublado (noite)";
             case "Partly cloudy (day)":
                 return "parcialmente nublado (dia)";
-            case "Clear":
+            case "clear":
                 return "limpo";
-            case "Sunny":
+            case "sunny":
                 return "ensolarado";
-            case "Fair (night)":
+            case "fair (night)":
                 return "feira (noite)";
-            case "Fair (day)":
+            case "fair (day)":
                 return "justo (dia)";
-            case "Mixed rain and hail":
+            case "mixed rain and hail":
                 return "chuva mista e granizo";
-            case "Hot":
+            case "hot":
                 return "quente";
-            case "Isolated thunderstorms":
+            case "isolated thunderstorms":
                 return "tempestades isoladas";
-            case "Scattered thunderstorms":
+            case "scattered thunderstorms":
                 return "tempestades dispersas";
-            case "Scattered showers":
+            case "scattered showers":
                 return "chuvas dispersas";
-            case "Heavy snow":
+            case "heavy snow":
                 return "neve pesada";
-            case "Scattered snow showers":
+            case "scattered snow showers":
                 return "nevadas dispersas";
-            case "Partly cloudy":
+            case "partly cloudy":
                 return "parcialmente nublado";
-            case "Thundershowers":
+            case "thundershowers":
                 return "trovoadas";
-            case "Snow showers":
+            case "snow showers":
                 return "chuvas de neve";
-            case "Isolated thundershowers":
+            case "isolated thundershowers":
                 return "trovoadas isoladas";
             default:
                 return "";
