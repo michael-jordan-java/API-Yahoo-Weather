@@ -101,6 +101,8 @@ public class ConversorUtil {
                 return "trovoadas isoladas";
             case "mostly cloudy":
                 return "predominantemente nublado";
+            case "mostly sunny":
+                return "predominantemente ensolarado";
             default:
                 return "";
         }
