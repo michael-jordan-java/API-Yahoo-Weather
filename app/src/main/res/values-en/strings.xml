@@ -3,6 +3,6 @@
     <string name="app_name">Teste Mobile</string>
     <string name="primeira_parte_mens">ºC in</string>
     <string name="segunda_parte_mens">with %s weather</string>
-    <string name="error">Not available!</string>
+    <string name="error">Weather not available!</string>
     <string name="sair_message">Press again to exit</string>
 </resources>

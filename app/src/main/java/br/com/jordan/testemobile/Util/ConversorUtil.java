@@ -26,59 +26,59 @@ public class ConversorUtil {
             case "thunderstorms":
                 return "trovoadas";
             case "mixed rain and snow":
-                return "chuva mista e neve";
+                return "chuva e neve";
             case "mixed rain and sleet":
-                return "chuva mista e aguaceiro";
+                return "chuva e granizo fino";
+            case "mixed snow and sleet":
+                return "neve e granizo fino";
             case "freezing drizzle":
-                return "chuvisco gelado";
+                return "garoa gélida";
+            case "freezing rain":
+                return "chuva gélida";
+            case "drizzle":
+                return "garoa";
             case "showers":
-                return "chuveiros";
+                return "chuva";
             case "snow flurries":
-                return "Flocos de neve";
+                return "neve em flocos finos";
             case "ligth snow showers":
-                return "leve neve";
+                return "leve precipitação de neve";
             case "blowing snow":
-                return "soprando neve";
+                return "ventos com neve";
             case "snow":
                 return "neve";
             case "hail":
-                return "saudar";
+                return "chuva de granizo";
             case "sleet":
-                return "granizo";
+                return "pouco granizo";
             case "dust":
-                return "poeira";
+                return "pó em suspensão";
             case "foggy":
-                return "nebuloso";
-            case "haze":
                 return "neblina";
+            case "haze":
+                return "névoa seca";
             case "smoky":
                 return "esfumaçado";
             case "blustery":
-                return "blustery";
+                return "vendaval";
             case "windy":
-                return "ventoso";
+                return "ventando";
             case "cold":
                 return "frio";
             case "cloudy":
                 return "nublado";
-            case "mostly cloudy (night)":
-                return "geralmente nublado (noite)";
-            case "mostly cloudy (day)":
-                return "mais nublado (dia)";
-            case "partly cloudy (night)":
-                return "parcialmente nublado (noite)";
-            case "Partly cloudy (day)":
-                return "parcialmente nublado (dia)";
             case "clear":
-                return "limpo";
+                return "céu limpo";
             case "sunny":
                 return "ensolarado";
+            case "fair":
+                return "tempo bom";
             case "fair (night)":
-                return "feira (noite)";
+                return "tempo bom";
             case "fair (day)":
-                return "justo (dia)";
+                return "tempo bom";
             case "mixed rain and hail":
-                return "chuva mista e granizo";
+                return "chuva e granizo";
             case "hot":
                 return "quente";
             case "isolated thunderstorms":
@@ -88,19 +88,31 @@ public class ConversorUtil {
             case "scattered showers":
                 return "chuvas dispersas";
             case "heavy snow":
-                return "neve pesada";
+                return "nevasca";
             case "scattered snow showers":
                 return "nevadas dispersas";
+            case "partly cloudy (night)":
+                return "parcialmente nublado";
+            case "partly cloudy (day)":
+                return "parcialmente nublado";
             case "partly cloudy":
                 return "parcialmente nublado";
             case "thundershowers":
-                return "trovoadas";
+                return "chuvas com trovoadas";
             case "snow showers":
-                return "chuvas de neve";
+                return "tempestade de neve";
             case "isolated thundershowers":
-                return "trovoadas isoladas";
+                return "relâmpagos e chuva isoladas";
+            case "mostly cloudy (night)":
+                return "muitas nuvens";
+            case "mostly cloudy (day)":
+                return "muitas nuvens";
             case "mostly cloudy":
-                return "predominantemente nublado";
+                return "muitas nuvens";
+            case "mostly sunny (night)":
+                return "predominantemente ensolarado";
+            case "mostly sunny (day)":
+                return "predominantemente ensolarado";
             case "mostly sunny":
                 return "predominantemente ensolarado";
             default:
