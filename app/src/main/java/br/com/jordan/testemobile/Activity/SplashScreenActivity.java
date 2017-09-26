@@ -185,6 +185,7 @@ public class SplashScreenActivity extends AppCompatActivity implements LocationL
         public void onSuccess(String retorno) {
             // passando o json para objeto
             Weather weather = new JsonParser<Weather>(Weather.class).toObject(retorno);
+            Log.e("e",weather.getQuery().getResults().getChannel().getItem().getCondition().getText());
 
             // Redirecionando para proxima tela
             Intent intent = new Intent(SplashScreenActivity.this, MainActivity.class);

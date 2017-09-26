@@ -99,6 +99,8 @@ public class ConversorUtil {
                 return "chuvas de neve";
             case "isolated thundershowers":
                 return "trovoadas isoladas";
+            case "mostly cloudy":
+                return "predominantemente nublado";
             default:
                 return "";
         }
